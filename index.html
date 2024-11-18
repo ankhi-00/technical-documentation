@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Basics Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <header>HTML Basics</header>
+    <ul>
+      <li><a href="#Introduction_to_HTML" class="nav-link">Introduction to HTML</a></li>
+      <li><a href="#HTML_Structure" class="nav-link">HTML Structure</a></li>
+      <li><a href="#Elements_and_Tags" class="nav-link">Elements and Tags</a></li>
+      <li><a href="#Attributes" class="nav-link">Attributes</a></li>
+      <li><a href="#Semantic_Elements" class="nav-link">Semantic Elements</a></li>
+      <li><a href="#Forms" class="nav-link">Forms</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Documentation Content -->
+  <main id="main-doc">
+    <!-- Section 1: Introduction to HTML -->
+    <section id="Introduction_to_HTML" class="main-section">
+      <header>Introduction to HTML</header>
+      <p>HTML (HyperText Markup Language) is the standard language used to create web pages.</p>
+      <p>It provides the structure of a webpage and is the foundation of web development.</p>
+      <ul>
+        <li>Defines the structure of web content</li>
+        <li>Supported by all web browsers</li>
+        <li>Easy to learn and essential for web development</li>
+      </ul>
+    </section>
+
+    <!-- Section 2: HTML Structure -->
+    <section id="HTML_Structure" class="main-section">
+      <header>HTML Structure</header>
+      <p>An HTML document is structured with elements that describe the content and layout.</p>
+      <p>The basic structure includes:</p>
+      <pre><code>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>This is an HTML document.</p>
+  </body>
+</html>
+      </code></pre>
+    </section>
+
+    <!-- Section 3: Elements and Tags -->
+    <section id="Elements_and_Tags" class="main-section">
+      <header>Elements and Tags</header>
+      <p>HTML is composed of elements, each represented by tags.</p>
+      <p>Tags are surrounded by angle brackets, like <code>&lt;p&gt;</code> for paragraphs.</p>
+      <p>Example of a header tag:</p>
+      <pre><code>&lt;h1&gt;This is a header&lt;/h1&gt;</code></pre>
+    </section>
+
+    <!-- Section 4: Attributes -->
+    <section id="Attributes" class="main-section">
+      <header>Attributes</header>
+      <p>Attributes provide additional information about elements. Common attributes include:</p>
+      <ul>
+        <li><code>class</code>: Specifies a class name for styling</li>
+        <li><code>id</code>: Provides a unique identifier for an element</li>
+        <li><code>src</code>: Specifies the source of an image or other media</li>
+        <li><code>href</code>: Defines a link destination in anchor tags</li>
+      </ul>
+      <p>Example of an image with attributes:</p>
+      <pre><code>&lt;img src="image.jpg" alt="Sample Image" width="200"&gt;</code></pre>
+    </section>
+
+    <!-- Section 5: Semantic Elements -->
+    <section id="Semantic_Elements" class="main-section">
+      <header>Semantic Elements</header>
+      <p>Semantic elements describe the purpose of content, improving readability and accessibility.</p>
+      <ul>
+        <li><code>&lt;header&gt;</code>: Represents a header for a section</li>
+        <li><code>&lt;article&gt;</code>: Contains self-contained content</li>
+        <li><code>&lt;section&gt;</code>: Defines a section in a document</li>
+        <li><code>&lt;footer&gt;</code>: Represents the footer of a document or section</li>
+      </ul>
+      <p>Example of semantic elements in HTML:</p>
+      <pre><code>
+<header>
+  <h1>Welcome to HTML Basics</h1>
+</header>
+<article>
+  <p>This is an article section.</p>
+</article>
+<footer>
+  <p>Footer content here.</p>
+</footer>
+      </code></pre>
+    </section>
+
+    <!-- Section 6: Forms -->
+    <section id="Forms" class="main-section">
+      <header>Forms</header>
+      <p>Forms allow users to input data and send it to a server.</p>
+      <p>Basic example of an HTML form:</p>
+      <pre><code>
+<form action="/submit" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+  <button type="submit">Submit</button>
+</form>
+      </code></pre>
+    </section>
+  </main>
+</body>
+</html>
+
+
